@@ -16,6 +16,10 @@
 
 @import 'bootstrap-sprockets';
 @import 'bootstrap';
+@import "font-awesome-sprockets";
+@import "font-awesome";
+
+
 
 // Typography Styles
 h1, h2, h3 {
@@ -38,7 +42,7 @@ h1, h2, h3 {
 .navbar-default .navbar-brand,
 .navbar-default .navbar-nav > li > a {
   color: #4d4d33;
-  &hover {
+  &:hover {
     color: #4d4d33;
     opacity: 0.75;
   }
