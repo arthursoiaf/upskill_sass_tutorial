@@ -20,7 +20,6 @@
 @import "font-awesome";
 
 
-
 // Typography Styles
 h1, h2, h3 {
     font-family: 'Roboto Slab', serif;
@@ -37,6 +36,11 @@ h1, h2, h3 {
 // Nav Styles
 .navbar {
   border: none;
+}
+
+.navbar-brand {
+  font-family: 'Roboto Slab', serif;
+  font-weight: 800;
 }
 
 .navbar-default .navbar-brand,
